@@ -92,7 +92,7 @@ with tab2:
     plt.scatter(df[x_nutrient], df[y_nutrient])
     plt.xlabel(x_nutrient)
     plt.ylabel(y_nutrient)
-    plt.title(f'{x_nutrient}and {y_nutrient}'s relationship')
+    plt.title(f'{x_nutrient}and {y_nutrient} relationship')
     st.pyplot(fig3)
 
 # 탭3: 지도 시각화
